@@ -57,8 +57,6 @@ public class Depart extends Object{
         for(int j = i; j < currCount - 1; j++){
           courses[j] = courses[j - 1];
         }    
-        
-        System.out.println("Course Removed Successfully");
         courses[--currCount] = null;
         return;
       }
